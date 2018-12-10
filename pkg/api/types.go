@@ -4022,7 +4022,7 @@ type Secret struct {
 	Type SecretType
 }
 
-const MaxSecretSize = 1 * 1024 * 1024
+const MaxSecretSize = 10 * 1024 * 1024
 
 type SecretType string
 
