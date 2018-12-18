@@ -119,7 +119,7 @@ type dialOptions struct {
 }
 
 const (
-	defaultClientMaxReceiveMessageSize = 1024 * 1024 * 4
+	defaultClientMaxReceiveMessageSize = math.MaxInt32
 	defaultClientMaxSendMessageSize    = math.MaxInt32
 )
 
