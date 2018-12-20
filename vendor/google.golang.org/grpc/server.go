@@ -54,7 +54,7 @@ import (
 )
 
 const (
-	defaultServerMaxReceiveMessageSize = 1024 * 1024 * 4
+	defaultServerMaxReceiveMessageSize = 1024 * 1024 * 10
 	defaultServerMaxSendMessageSize    = math.MaxInt32
 )
 
